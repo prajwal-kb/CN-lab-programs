@@ -9,7 +9,7 @@ public class tcpClient {
         DataOutputStream out;
         DataInputStream in;
         Scanner sc = new Scanner(System.in);
-        Socket socket = new Socket("localhost" , 6000);
+        Socket socket = new Socket("127.0.0.1" , 6000);
         System.out.println("Client connected to server ");
         System.out.println("\nEnter the filename to request ");
         String filename = sc.nextLine();
